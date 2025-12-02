@@ -1,11 +1,5 @@
 {
   "buildCommand": "bun run build",
   "installCommand": "npx bun@1.2.23 install",
-  "functions": {
-    "api/**": {
-      "memory": 1024,
-      "maxDuration": 300,
-      "regions": ["hnd1"]
-    }
-  }
+  "regions": ["hnd1"]
 }
